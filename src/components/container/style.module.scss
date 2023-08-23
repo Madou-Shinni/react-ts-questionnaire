@@ -1,0 +1,27 @@
+.container {
+  background-color: #f0f2f5;
+  padding: 12px 0;
+  height: 100vh;
+}
+
+.content {
+  margin: 0 24px;
+  display: flex;
+  height: 100%;
+
+  .left {
+    width: 285px;
+    background-color: #fff;
+    padding: 0 12px;
+  }
+
+  .right {
+    width: 300px;
+    background-color: #fff;
+    padding: 0 12px;
+  }
+
+  .main {
+    flex: 1;
+  }
+}
