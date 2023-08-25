@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*::-webkit-scrollbar{
+  width: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.57);
+  border-radius: 5px;
+}
+
+* {
+ scrollbar-width: auto;
+ scrollbar-base-color: green;
+ scrollbar-track-color: red;
+ scrollbar-arrow-color: blue;
 }
